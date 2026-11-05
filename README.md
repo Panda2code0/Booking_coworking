@@ -35,8 +35,8 @@ cp .env.example .env
 docker compose up --build
 ```
 
-API будет доступен по адресу: **http://localhost:8000**  
-Swagger UI: **http://localhost:8000/docs**
+API будет доступен по адресу: **http://localhost:8000**  (до хостинга)
+Swagger UI: **http://localhost:8000/docs**  (до хостинга)
 
 При старте контейнера автоматически выполняются миграции Alembic.
 
